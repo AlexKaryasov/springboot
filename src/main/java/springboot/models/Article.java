@@ -20,6 +20,15 @@ public class Article {
 
     protected Integer views;
 
+    public Article() {
+    }
+
+    public Article(String title, String preview, String fullText) {
+        this.title = title;
+        this.preview = preview;
+        this.fullText = fullText;
+    }
+
     public Long getId() {
         return id;
     }
